@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.5",
     "dev-portfolio": "file:",
     "next": "14.2.15",
     "react": "^18",
@@ -16,6 +17,7 @@
     "react-type-animation": "^3.2.0"
   },
   "devDependencies": {
+    "@types/react": "^18.3.11",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
     "postcss": "^8",
