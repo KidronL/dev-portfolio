@@ -1,14 +1,15 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
     return (
-        <section>
+        <section className="lg:py-16">
             <div className="grid grid-cols-1 sm:grid-cols-12">
-                <div className="lg:col-span-7 place-self-center text-center sm:text-left">
-                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                <motion.div initial={{opacity: 0, scale:0.25}} animate={{opacity: 1, scale:1}}  transition={{duration: 0.7}} className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
+                    <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                             Hello, I am{" "}
                         </span>
@@ -17,13 +18,13 @@ const HeroSection = () => {
                             sequence={[
                                 "Kidron Lightfoot",
                                 1000,
-                                "IT Support Specialist",
+                                "a IT Support Specialist",
                                 1000,
-                                "Frontend Developer",
+                                "a Frontend Developer",
                                 1000,
-                                "Backend Developer",
+                                "a Backend Developer",
                                 1000,
-                                "Fullstack Developer",
+                                "a Fullstack Developer",
                                 1000,
                             ]}
                             wrapper="span"
@@ -43,8 +44,8 @@ const HeroSection = () => {
                             <span className="block bg-[black] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
                         </button>
                     </div>
-                </div>
-                <div className="lg:col-span-5 place-self-center mt-4 lg:mt-0">
+                </motion.div>
+                <motion.div initial={{opacity: 0, scale:0.25}} animate={{opacity: 1, scale:1}}  transition={{duration: 0.7}} className="lg:col-span-4 place-self-center mt-4 lg:mt-0">
                     <div className="w-60 h-60 bg-[#171717] rounded-full relative">
                         <Image
                             src="/images/hero-image.jpg"
@@ -54,7 +55,7 @@ const HeroSection = () => {
                             className="rounded-full w-full h-full object-cover absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         />
                     </div>
-                </div>
+                </motion.div>
             </div>
         </section>
     )

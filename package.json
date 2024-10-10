@@ -11,6 +11,7 @@
   "dependencies": {
     "@heroicons/react": "^2.1.5",
     "dev-portfolio": "file:",
+    "framer-motion": "^11.11.7",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",
