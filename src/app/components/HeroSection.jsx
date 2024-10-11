@@ -6,11 +6,11 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
     return (
-        <section className="lg:py-16">
+        <section className="lg:py-16" id="home">
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <motion.div initial={{opacity: 0, scale:0.25}} animate={{opacity: 1, scale:1}}  transition={{duration: 0.7}} className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
                     <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-300 to-secondary-500">
                             Hello, I am{" "}
                         </span>
                         <br></br>
@@ -37,10 +37,10 @@ const HeroSection = () => {
                         Suspendisse varius enim in eros elementum tristique.
                     </p>
                     <div>
-                        <button className="bg-gradient-to-br from-blue-500 via-purple-500 to bg-pink-500 hover:bg-slate-200 text-[#fff] px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-2 mt-2">
+                        <button className="bg-gradient-to-br from-indigo-500 via-primary-500 to bg-secondary-500 hover:bg-slate-200 text-[#fff] px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-2 mt-2">
                             Hire Me
                         </button>
-                        <button className="bg-transparent bg-gradient-to-br from-blue-500 via-purple-500 to bg-pink-500 hover:bg-slate-800 text-[#fff] px-1 py-1 w-full sm:w-fit rounded-full">
+                        <button className="bg-transparent bg-gradient-to-br from-indigo-500 via-primary-500 to bg-secondary-500 hover:bg-slate-800 text-[#fff] px-1 py-1 w-full sm:w-fit rounded-full">
                             <span className="block bg-[black] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
                         </button>
                     </div>
