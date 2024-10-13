@@ -1,6 +1,7 @@
 import React from 'react'
 import NavLink from './NavLink';
 
+//Creating the menu popout for when the screen is resized to mobile
 const MenuOverlay = ({ links }) => {
   return (
     <ul className='flex flex-col py-4 items-center'>

@@ -7,6 +7,7 @@ const variants ={
   active: { width: "calc(100% - 0.75rem)" },
 };
 
+//A function for the tab buttons to allow for animation
 const TabButton = ({active, selectTab, children}) => {
 const buttonClasses = active ? 'text-white' : 'text-white text-[#ADB7BE]';
   return (

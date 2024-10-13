@@ -5,6 +5,7 @@ import LinkedInIcon from "../../../public/LinkedInIcon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
+//An email function with a form that gets written into an API request to send an email through Resend.
 const EmailSection = () => {
 
     const [emailSubmitted, setEmailSubmitted] = useState(false);

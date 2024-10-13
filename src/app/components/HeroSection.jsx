@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
+//The hero section with animations using framer-motion and a TypeAnimation component
 const HeroSection = () => {
     return (
         <section className="lg:py-16" id="home">
@@ -18,7 +19,7 @@ const HeroSection = () => {
                             sequence={[
                                 "Kidron Lightfoot",
                                 1000,
-                                "a IT Support Specialist",
+                                "an IT Support Specialist",
                                 1000,
                                 "a Frontend Developer",
                                 1000,

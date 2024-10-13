@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Link as ScrollLink } from "react-scroll";
 
-
+//Creating the nav links
 const NavLink = ({ href, title }) => {
     return (
         <Link 

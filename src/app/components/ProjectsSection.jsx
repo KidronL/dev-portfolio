@@ -34,6 +34,7 @@ const projectsData = [
     },
 ]
 
+//A function to map out an array of projects for display on the site. Uses the tag as a target for filtering.
 const ProjectsSection = () => {
     const [tag, setTag] = useState("All");
     const ref = useRef(null);

@@ -3,6 +3,7 @@ import React, { useTransition, useState } from 'react'
 import Image from 'next/image'
 import TabButton from './TabButton';
 
+//An array to hold the information for the tabs
 const TAB_DATA = [
   {
     title: "Skills",
@@ -44,6 +45,7 @@ const TAB_DATA = [
 
 ]
 
+//The about section using an array map method to allow for dynamic tabs
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
   const [isPending, startTransition] = useTransition();

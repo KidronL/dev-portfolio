@@ -1,6 +1,6 @@
 import React from 'react'
 
-
+//A function to display the tags the projects are being filtered by. Made dynamic to allow for adding and removing tags
 const ProjectTag = ({name, onClick, isSelected}) => {
   const buttonStyles = isSelected ? 
     'text-white border-primary-500' 
