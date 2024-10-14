@@ -9,29 +9,19 @@ const projectsData = [
         id: 1,
         title: "Basic Chat Bot",
         description: "Developed a basic chat bot with HTML/CSS/JavaScript.",
-        image: "/images/about-image.jpg",
+        image: "/images/projects/chatbot-thumbnail.png",
         tag: ["All", "JavaScript"],
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "https://github.com/KidronL/basic_chatbot",
     },
     {
         id: 2,
-        title: "Basic Chat Bot",
-        description: "Developed a basic chat bot with Python.",
-        image: "/images/about-image.jpg",
-        tag: ["All", "Python"],
-        gitUrl: "/",
-        previewUrl: "/",
-    },
-    {
-        id: 3,
-        title: "Basic Chat Bot",
-        description: "Developed a basic home page with HTML/CSS.",
-        image: "/images/about-image.jpg",
+        title: "Basic Home Page",
+        description: "A home page made with HTML/CSS.",
+        image: "/images/projects/homepage-thumbnail.png",
         tag: ["All", "HTML/CSS"],
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "https://github.com/KidronL/sample_home_page",
     },
+   
 ]
 
 //A function to map out an array of projects for display on the site. Uses the tag as a target for filtering.

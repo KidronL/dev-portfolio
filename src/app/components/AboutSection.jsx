@@ -10,15 +10,17 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className='list-disc pl-2'>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Next.js</li>
-        <li>Node.js</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Tailwind</li>
-        <li>Git</li>
-        <li>GitHub</li>
+        <li>JavaScript (TypeScript)</li>
+        <li>React (Next.js)</li>
+        <li>Node.js (Express)</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>HTML/CSS</li>
+        <li>Server Administration</li>
+        <li>Cloud Administration</li>
+        <li>Network Troubleshooting</li>
+        <li>MacOS Support</li>
+        <li>Windows Support</li>
       </ul>
     )
   },
@@ -27,8 +29,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className='list-disc pl-2'>
-        <li>Fullstack Web Development</li>
-        <li>Promineo Tech</li>
+        <li>Fullstack Web Development - Promineo Tech</li>
+        <li>ITWorks - Tech Impact</li>
       </ul>
     )
   },
@@ -37,8 +39,11 @@ const TAB_DATA = [
     id: "experience",
     content: (
       <ul className='list-disc pl-2'>
-        <li>IT Specialist</li>
-        <li>Disability Planners</li>
+        <li>IT Specialist - Disability Planners</li>
+        <li>Account Manager - Tech Impact</li>
+        <li>Service Desk Engineer - Tech Impact</li>
+        <li>Account Setup Coordinator - Shift4 Payments</li>
+        <li>Support Technician - Shift4 Payments</li>
       </ul>
     )
   },
