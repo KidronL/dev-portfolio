@@ -60,6 +60,7 @@ const ProjectsSection = () => {
                 onClick={handleTagChange}
                 name="Python"
                 isSelected={tag === "Python"}
+            />
         </div>
         <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
             {filteredProjects.map((project, index) => (
