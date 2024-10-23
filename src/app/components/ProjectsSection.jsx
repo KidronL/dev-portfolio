@@ -18,7 +18,7 @@ const projectsData = [
         title: "Basic Home Page",
         description: "A home page made with HTML/CSS.",
         image: "/images/homepage-thumbnail.png",
-        tag: ["All", "HTML/CSS"],
+        tag: ["All"],
         gitUrl: "https://github.com/KidronL/sample_home_page",
     },
    
@@ -60,12 +60,6 @@ const ProjectsSection = () => {
                 onClick={handleTagChange}
                 name="Python"
                 isSelected={tag === "Python"}
-            />
-            <ProjectTag 
-                onClick={handleTagChange}
-                name="HTML/CSS"
-                isSelected={tag === "HTML/CSS"}
-            />
         </div>
         <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
             {filteredProjects.map((project, index) => (
